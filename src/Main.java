@@ -1,3 +1,5 @@
+import java.util.Scanner;
+
 //TIP To <b>Run</b> code, press <shortcut actionId="Run"/> or
 // click the <icon src="AllIcons.Actions.Execute"/> icon in the gutter.
 public class Main {
@@ -6,6 +8,13 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         System.out.println("Este es el tercer ejercicio de Jon Artzeniega y Eder Aguirre");
 
+        int num1;
+        int num2;
+        System.out.println("dime 2 valores la base y la altura de un rectangulo");
+        Scanner sc= new Scanner(System.in);
+        num1 = sc.nextInt();
+        num2 = sc.nextInt();
+        System.out.println(" Tu numero es " + ((num1 * 2) + (num2 * 2)));
 
     }
 }
