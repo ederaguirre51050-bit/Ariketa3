@@ -16,5 +16,13 @@ public class Main {
         num2 = sc.nextInt();
         System.out.println(" Tu numero es " + ((num1 * 2) + (num2 * 2)));
 
+        Scanner sc = new Scanner(System.in);
+        int radio;
+        System.out.println("Dime el radio.");
+        radio = sc.nextInt();
+        double total = Math.PI * radio * radio;
+        System.out.println(total);
+        sc.close();
+
     }
 }
